@@ -1,8 +1,8 @@
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/vielhuber/from-env) 
-
 # 🕶 from-env 🕶
 
 from-env is helper script that makes environment variables from a local ``.env``-file inside command line statements available.
+
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/khuongduybui/from-env) 
 
 ## installation
 
