@@ -7,7 +7,7 @@ from-env is helper script that makes environment variables from a local ``.env``
 ## installation
 
 ```bash
-npm install --save-dev from-env
+npm install --save-dev from-env-with-command
 ```
 
 ## usage
@@ -17,6 +17,14 @@ npm install --save-dev from-env
 VARIABLE1=needs
 VARIABLE2=have
 VARIABLE3=variables
+```
+
+``expansions inside .env``
+```.env
+PORT=5000
+PROTOCOL=http
+HOST=localhost
+URL=${PROTOCOL}://${HOST}:${PORT}
 ```
 
 ```package.json``` (before)
