@@ -3,9 +3,10 @@
     "bin": {
         "from-env": "bin/from-env.js"
     },
-    "version": "2.0.0",
-    "description": "",
+    "version": "2.1.0",
+    "description": "Drop in replacement for `from-env` with `dotenv-expand` preloaded",
     "main": "index.js",
+    "repository": "https://github.com/khuongduybui/from-env-with-expand",
     "dependencies": {
         "cross-spawn": "^7.0.2",
         "dotenv-with-expand": "^1.0.1",
@@ -14,6 +15,6 @@
     },
     "devDependencies": {},
     "scripts": {},
-    "author": "",
+    "author": "Duy K. Bui <duy@buifamily.info>",
     "license": "ISC"
 }
