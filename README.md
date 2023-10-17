@@ -1,3 +1,7 @@
+DEPRECATION NOTICE
+
+Support for `.env` file is now a builtin feature of Node.js. See https://nodejs.org/en/blog/release/v20.6.0#built-in-env-file-support
+
 # 🕶 from-env 🕶
 
 from-env is helper script that makes environment variables from a local ``.env``-file inside command line statements available.
